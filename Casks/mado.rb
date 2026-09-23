@@ -7,7 +7,7 @@ cask "mado" do
   desc "A terminal multiplexer for macOS with plugins, themes, and Tasku built in"
   homepage "https://nerimasoft.co.uk/mado.html"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Mado.app"
 
