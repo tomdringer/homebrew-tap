@@ -10,6 +10,7 @@ cask "mado" do
   depends_on macos: :sonoma
 
   app "Mado.app"
+  binary "#{appdir}/Mado.app/Contents/MacOS/mado"
 
   zap trash: [
     "~/.config/mado",
